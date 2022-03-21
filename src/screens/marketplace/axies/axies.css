@@ -1,0 +1,81 @@
+.axies-filter-container {
+    border-right: 1px solid #3a3f50;
+    overflow: scroll;
+}
+
+.heading {
+    color: white;
+    font-family: Avenir Next,Muli,sans-serif;
+    font-size: 20px;
+}
+
+.link {
+    color: #046cfc;
+    font-family: Avenir Next,Muli,sans-serif;
+    font-size: 14px;
+}
+
+.ability-container {
+    background-image: url('../../../constants/images/background-card.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 265px;
+}
+
+.ability-level {
+    color: #fff;
+    margin-top: 5px;
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 46px;
+    height: 46px;
+    font-size: 30px;
+    text-shadow: 2px 0 0 rgb(125 69 27), -2px 0 0 rgb(125 69 27), 0 2px 0 rgb(125 69 27), 0 -2px 0 rgb(125 69 27), 1px 1px rgb(125 69 27), -1px -1px 0 rgb(125 69 27), 1px -1px 0 rgb(125 69 27), -1px 1px 0 rgb(125 69 27);
+}
+
+.ability-heading {
+    height: 28px;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.ability-description {
+    color: #fff;
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    width: 165px;
+    padding-right: 15px;
+    padding-left: 15px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.left-count {
+    position: relative;
+    background-image: url('../../../constants//images/bg-bug.png');
+    background-repeat: no-repeat;
+    margin-left: -15px;
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 50px;
+    color: #fff;
+    text-shadow: 2px 0 0 rgb(125 69 27), -2px 0 0 rgb(125 69 27), 0 2px 0 rgb(125 69 27), 0 -2px 0 rgb(125 69 27), 1px 1px rgb(125 69 27), -1px -1px 0 rgb(125 69 27), 1px -1px 0 rgb(125 69 27), -1px 1px 0 rgb(125 69 27);
+    font-weight: bold;
+}

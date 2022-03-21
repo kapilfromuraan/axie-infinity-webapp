@@ -1,0 +1,33 @@
+.marketplace-tabbar-container {
+    background-color: #242735;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #3a3f50;
+}
+
+.marketplace-tab-bar {
+    color: #fff;
+    display: flex;
+    opacity: 0.5;
+    align-items: center;
+    border-bottom: 4px solid #242735;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Avenir Next,Muli,sans-serif;
+}
+
+.marketplace-tab-bar:hover{
+    color: #fff;
+}
+
+.marketplace-tab-bar-active {
+    border-bottom: 4px solid #3082f2;
+    opacity: 1;
+}
+
+.marketplace-container {
+    background-color: #242735;
+    height: calc(100vh - 120px);
+}

@@ -1,0 +1,17 @@
+.bundle-filter-container {
+    width: 280px;
+    border-right: 1px solid #3a3f50;
+    overflow: scroll;
+}
+
+.heading {
+    color: white;
+    font-family: Avenir Next,Muli,sans-serif;
+    font-size: 20px;
+}
+
+.link {
+    color: #046cfc;
+    font-family: Avenir Next,Muli,sans-serif;
+    font-size: 14px;
+}
